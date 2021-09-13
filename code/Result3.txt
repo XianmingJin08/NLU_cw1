@@ -1,0 +1,520 @@
+Retained 2000 words from 9954 (88.35% of all tokens)
+
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 0
+Initial learning rate set to 0.5, annealing set to 6
+
+calculating initial mean loss on dev set: 7.076089209069355
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.5000	instance 1000	epoch done in 12.22 seconds	new loss: 0.685092189648769	new acc: 0.659
+epoch 2, learning rate 0.4286	instance 1000	epoch done in 12.18 seconds	new loss: 0.7466665705210939	new acc: 0.659
+epoch 3, learning rate 0.3750	instance 1000	epoch done in 11.93 seconds	new loss: 0.6482309143642552	new acc: 0.659
+epoch 4, learning rate 0.3333	instance 1000	epoch done in 12.02 seconds	new loss: 0.7160461478182005	new acc: 0.45
+epoch 5, learning rate 0.3000	instance 1000	epoch done in 12.23 seconds	new loss: 0.6330726302426449	new acc: 0.667
+epoch 6, learning rate 0.2727	instance 1000	epoch done in 12.54 seconds	new loss: 0.6488283456261644	new acc: 0.666
+epoch 7, learning rate 0.2500	instance 1000	epoch done in 12.09 seconds	new loss: 0.6344198370381443	new acc: 0.666
+epoch 8, learning rate 0.2308	instance 1000	epoch done in 11.76 seconds	new loss: 0.6235393740087939	new acc: 0.669
+epoch 9, learning rate 0.2143	instance 1000	epoch done in 11.79 seconds	new loss: 0.6220831944021707	new acc: 0.669
+epoch 10, learning rate 0.2000	instance 1000	epoch done in 11.81 seconds	new loss: 0.6291552427765005	new acc: 0.668
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6220831944021707, acc 0.669, at epoch 9
+setting U, V, W to matrices from best epoch
+Accuracy: 0.669
+best setting now is lr = 0.5, hUnit = 25, step=0 with accuracy = 0.669
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 2
+Initial learning rate set to 0.5, annealing set to 6
+
+calculating initial mean loss on dev set: 7.3218875892295285
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.5000	instance 1000	epoch done in 11.80 seconds	new loss: 0.7190505677578578	new acc: 0.659
+epoch 2, learning rate 0.4286	instance 1000	epoch done in 11.85 seconds	new loss: 0.6679983155697298	new acc: 0.659
+epoch 3, learning rate 0.3750	instance 1000	epoch done in 12.28 seconds	new loss: 0.6450973414419712	new acc: 0.669
+epoch 4, learning rate 0.3333	instance 1000	epoch done in 12.44 seconds	new loss: 0.6419182266691354	new acc: 0.669
+epoch 5, learning rate 0.3000	instance 1000	epoch done in 12.39 seconds	new loss: 0.6271452860572635	new acc: 0.669
+epoch 6, learning rate 0.2727	instance 1000	epoch done in 12.28 seconds	new loss: 0.622538082481628	new acc: 0.669
+epoch 7, learning rate 0.2500	instance 1000	epoch done in 12.14 seconds	new loss: 0.6199247749446486	new acc: 0.67
+epoch 8, learning rate 0.2308	instance 1000	epoch done in 12.27 seconds	new loss: 0.6317302162519145	new acc: 0.669
+epoch 9, learning rate 0.2143	instance 1000	epoch done in 12.10 seconds	new loss: 0.6133188936562862	new acc: 0.683
+epoch 10, learning rate 0.2000	instance 1000	epoch done in 12.12 seconds	new loss: 0.6069023346440613	new acc: 0.67
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6069023346440613, acc 0.67, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.670
+best setting now is lr = 0.5, hUnit = 25, step=2 with accuracy = 0.67
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 5
+Initial learning rate set to 0.5, annealing set to 6
+
+calculating initial mean loss on dev set: 7.820062307579435
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.5000	instance 1000	epoch done in 12.39 seconds	new loss: 0.750733782864386	new acc: 0.407
+epoch 2, learning rate 0.4286	instance 1000	epoch done in 12.63 seconds	new loss: 0.6403373245585261	new acc: 0.669
+epoch 3, learning rate 0.3750	instance 1000	epoch done in 12.77 seconds	new loss: 0.6435171601592109	new acc: 0.671
+epoch 4, learning rate 0.3333	instance 1000	epoch done in 12.96 seconds	new loss: 0.621808180641641	new acc: 0.669
+epoch 5, learning rate 0.3000	instance 1000	epoch done in 12.50 seconds	new loss: 0.6486471934390522	new acc: 0.688
+epoch 6, learning rate 0.2727	instance 1000	epoch done in 12.50 seconds	new loss: 0.6109464158866996	new acc: 0.669
+epoch 7, learning rate 0.2500	instance 1000	epoch done in 12.79 seconds	new loss: 0.6131495609007818	new acc: 0.669
+epoch 8, learning rate 0.2308	instance 1000	epoch done in 12.82 seconds	new loss: 0.6016921319374997	new acc: 0.669
+epoch 9, learning rate 0.2143	instance 1000	epoch done in 12.87 seconds	new loss: 0.597747222770162	new acc: 0.681
+epoch 10, learning rate 0.2000	instance 1000	epoch done in 12.72 seconds	new loss: 0.5944331719343624	new acc: 0.698
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.5944331719343624, acc 0.698, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.698
+best setting now is lr = 0.5, hUnit = 25, step=5 with accuracy = 0.698
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 0
+Initial learning rate set to 0.5, annealing set to 6
+
+calculating initial mean loss on dev set: 7.29576314265761
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.5000	instance 1000	epoch done in 12.30 seconds	new loss: 0.6649401206050035	new acc: 0.666
+epoch 2, learning rate 0.4286	instance 1000	epoch done in 12.86 seconds	new loss: 0.7110432408166396	new acc: 0.659
+epoch 3, learning rate 0.3750	instance 1000	epoch done in 12.69 seconds	new loss: 0.6430895610729818	new acc: 0.669
+epoch 4, learning rate 0.3333	instance 1000	epoch done in 12.54 seconds	new loss: 0.6738720829909096	new acc: 0.665
+epoch 5, learning rate 0.3000	instance 1000	epoch done in 12.36 seconds	new loss: 0.6411869498448056	new acc: 0.674
+epoch 6, learning rate 0.2727	instance 1000	epoch done in 12.12 seconds	new loss: 0.6272642186142429	new acc: 0.669
+epoch 7, learning rate 0.2500	instance 1000	epoch done in 12.31 seconds	new loss: 0.6231307574649004	new acc: 0.669
+epoch 8, learning rate 0.2308	instance 1000	epoch done in 12.98 seconds	new loss: 0.6206878119873419	new acc: 0.669
+epoch 9, learning rate 0.2143	instance 1000	epoch done in 13.04 seconds	new loss: 0.6334879388239533	new acc: 0.705
+epoch 10, learning rate 0.2000	instance 1000	epoch done in 12.48 seconds	new loss: 0.62235133959522	new acc: 0.703
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6206878119873419, acc 0.669, at epoch 8
+setting U, V, W to matrices from best epoch
+Accuracy: 0.669
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 2
+Initial learning rate set to 0.5, annealing set to 6
+
+calculating initial mean loss on dev set: 7.22022048701824
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.5000	instance 1000	epoch done in 12.66 seconds	new loss: 1.82977628623177	new acc: 0.659
+epoch 2, learning rate 0.4286	instance 1000	epoch done in 12.77 seconds	new loss: 0.6428519001533228	new acc: 0.663
+epoch 3, learning rate 0.3750	instance 1000	epoch done in 12.62 seconds	new loss: 0.824358269403804	new acc: 0.659
+epoch 4, learning rate 0.3333	instance 1000	epoch done in 12.57 seconds	new loss: 0.6612903768388945	new acc: 0.66
+epoch 5, learning rate 0.3000	instance 1000	epoch done in 13.07 seconds	new loss: 0.6346903560445601	new acc: 0.675
+epoch 6, learning rate 0.2727	instance 1000	epoch done in 12.88 seconds	new loss: 0.6698907996031237	new acc: 0.666
+epoch 7, learning rate 0.2500	instance 1000	epoch done in 12.59 seconds	new loss: 0.7001629270310967	new acc: 0.509
+epoch 8, learning rate 0.2308	instance 1000	epoch done in 12.62 seconds	new loss: 0.6140277588362821	new acc: 0.668
+epoch 9, learning rate 0.2143	instance 1000	epoch done in 12.80 seconds	new loss: 0.608916115191128	new acc: 0.669
+epoch 10, learning rate 0.2000	instance 1000	epoch done in 12.93 seconds	new loss: 0.6021656209318732	new acc: 0.669
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6021656209318732, acc 0.669, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.669
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 5
+Initial learning rate set to 0.5, annealing set to 6
+
+calculating initial mean loss on dev set: 8.562545084140059
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.5000	instance 1000	epoch done in 13.03 seconds	new loss: 1.4106747616865762	new acc: 0.659
+epoch 2, learning rate 0.4286	instance 1000	epoch done in 12.72 seconds	new loss: 0.6377936797580258	new acc: 0.659
+epoch 3, learning rate 0.3750	instance 1000	epoch done in 12.84 seconds	new loss: 0.6513036942044528	new acc: 0.659
+epoch 4, learning rate 0.3333	instance 1000	epoch done in 13.15 seconds	new loss: 0.6280140262655451	new acc: 0.669
+epoch 5, learning rate 0.3000	instance 1000	epoch done in 13.25 seconds	new loss: 0.6156461942310515	new acc: 0.669
+epoch 6, learning rate 0.2727	instance 1000	epoch done in 13.26 seconds	new loss: 0.6472405756924224	new acc: 0.692
+epoch 7, learning rate 0.2500	instance 1000	epoch done in 12.93 seconds	new loss: 0.6130911104718159	new acc: 0.699
+epoch 8, learning rate 0.2308	instance 1000	epoch done in 12.64 seconds	new loss: 0.6362889437209196	new acc: 0.669
+epoch 9, learning rate 0.2143	instance 1000	epoch done in 13.15 seconds	new loss: 0.6233529410539834	new acc: 0.669
+epoch 10, learning rate 0.2000	instance 1000	epoch done in 13.29 seconds	new loss: 0.592546022091415	new acc: 0.681
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.592546022091415, acc 0.681, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.681
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 0
+Initial learning rate set to 0.1, annealing set to 6
+
+calculating initial mean loss on dev set: 8.367116693002474
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.1000	instance 1000	epoch done in 12.60 seconds	new loss: 2.1898577526028733	new acc: 0.659
+epoch 2, learning rate 0.0857	instance 1000	epoch done in 12.34 seconds	new loss: 0.8870387140062377	new acc: 0.659
+epoch 3, learning rate 0.0750	instance 1000	epoch done in 12.42 seconds	new loss: 0.7243315087924804	new acc: 0.659
+epoch 4, learning rate 0.0667	instance 1000	epoch done in 12.63 seconds	new loss: 0.7001624345421755	new acc: 0.659
+epoch 5, learning rate 0.0600	instance 1000	epoch done in 12.74 seconds	new loss: 0.6789823976022606	new acc: 0.659
+epoch 6, learning rate 0.0545	instance 1000	epoch done in 12.71 seconds	new loss: 0.6684863172375579	new acc: 0.659
+epoch 7, learning rate 0.0500	instance 1000	epoch done in 12.85 seconds	new loss: 0.6640390104634376	new acc: 0.659
+epoch 8, learning rate 0.0462	instance 1000	epoch done in 12.81 seconds	new loss: 0.6583326007712665	new acc: 0.659
+epoch 9, learning rate 0.0429	instance 1000	epoch done in 12.55 seconds	new loss: 0.6554773534772272	new acc: 0.659
+epoch 10, learning rate 0.0400	instance 1000	epoch done in 12.36 seconds	new loss: 0.6532683941496702	new acc: 0.659
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6532683941496702, acc 0.659, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.659
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 2
+Initial learning rate set to 0.1, annealing set to 6
+
+calculating initial mean loss on dev set: 7.826820190954413
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.1000	instance 1000	epoch done in 12.89 seconds	new loss: 1.8365729782749545	new acc: 0.659
+epoch 2, learning rate 0.0857	instance 1000	epoch done in 12.95 seconds	new loss: 0.7961259583781448	new acc: 0.668
+epoch 3, learning rate 0.0750	instance 1000	epoch done in 12.86 seconds	new loss: 0.6973746404337914	new acc: 0.669
+epoch 4, learning rate 0.0667	instance 1000	epoch done in 13.09 seconds	new loss: 0.6733489028997783	new acc: 0.669
+epoch 5, learning rate 0.0600	instance 1000	epoch done in 13.11 seconds	new loss: 0.6591560814394506	new acc: 0.669
+epoch 6, learning rate 0.0545	instance 1000	epoch done in 12.86 seconds	new loss: 0.6505264171393168	new acc: 0.669
+epoch 7, learning rate 0.0500	instance 1000	epoch done in 13.07 seconds	new loss: 0.6483234803557619	new acc: 0.669
+epoch 8, learning rate 0.0462	instance 1000	epoch done in 12.90 seconds	new loss: 0.6408225023887385	new acc: 0.669
+epoch 9, learning rate 0.0429	instance 1000	epoch done in 13.15 seconds	new loss: 0.6448286368397165	new acc: 0.669
+epoch 10, learning rate 0.0400	instance 1000	epoch done in 12.77 seconds	new loss: 0.6392437063176105	new acc: 0.669
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6392437063176105, acc 0.669, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.669
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 5
+Initial learning rate set to 0.1, annealing set to 6
+
+calculating initial mean loss on dev set: 8.995221757352061
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.1000	instance 1000	epoch done in 12.73 seconds	new loss: 1.5724665393016608	new acc: 0.663
+epoch 2, learning rate 0.0857	instance 1000	epoch done in 13.14 seconds	new loss: 0.7601523159824548	new acc: 0.669
+epoch 3, learning rate 0.0750	instance 1000	epoch done in 13.09 seconds	new loss: 0.7030247315616591	new acc: 0.669
+epoch 4, learning rate 0.0667	instance 1000	epoch done in 13.13 seconds	new loss: 0.6875100800296656	new acc: 0.666
+epoch 5, learning rate 0.0600	instance 1000	epoch done in 13.41 seconds	new loss: 0.683099946576383	new acc: 0.666
+epoch 6, learning rate 0.0545	instance 1000	epoch done in 13.22 seconds	new loss: 0.6687557047367022	new acc: 0.669
+epoch 7, learning rate 0.0500	instance 1000	epoch done in 13.16 seconds	new loss: 0.6687444181723938	new acc: 0.666
+epoch 8, learning rate 0.0462	instance 1000	epoch done in 13.25 seconds	new loss: 0.6622554633305001	new acc: 0.669
+epoch 9, learning rate 0.0429	instance 1000	epoch done in 13.59 seconds	new loss: 0.6600140296045689	new acc: 0.669
+epoch 10, learning rate 0.0400	instance 1000	epoch done in 13.30 seconds	new loss: 0.6584106049151369	new acc: 0.669
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6584106049151369, acc 0.669, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.669
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 0
+Initial learning rate set to 0.1, annealing set to 6
+
+calculating initial mean loss on dev set: 8.527042566954531
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.1000	instance 1000	epoch done in 12.77 seconds	new loss: 1.655571311211553	new acc: 0.659
+epoch 2, learning rate 0.0857	instance 1000	epoch done in 12.64 seconds	new loss: 0.7642985818741386	new acc: 0.663
+epoch 3, learning rate 0.0750	instance 1000	epoch done in 12.79 seconds	new loss: 0.7020113711513087	new acc: 0.662
+epoch 4, learning rate 0.0667	instance 1000	epoch done in 12.66 seconds	new loss: 0.6864768740225017	new acc: 0.662
+epoch 5, learning rate 0.0600	instance 1000	epoch done in 12.69 seconds	new loss: 0.6720996030921125	new acc: 0.662
+epoch 6, learning rate 0.0545	instance 1000	epoch done in 12.71 seconds	new loss: 0.6686215421494356	new acc: 0.662
+epoch 7, learning rate 0.0500	instance 1000	epoch done in 12.66 seconds	new loss: 0.659714909935165	new acc: 0.662
+epoch 8, learning rate 0.0462	instance 1000	epoch done in 12.75 seconds	new loss: 0.6554988901967836	new acc: 0.663
+epoch 9, learning rate 0.0429	instance 1000	epoch done in 12.72 seconds	new loss: 0.6544085475322193	new acc: 0.662
+epoch 10, learning rate 0.0400	instance 1000	epoch done in 12.74 seconds	new loss: 0.6511439636727033	new acc: 0.663
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6511439636727033, acc 0.663, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.663
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 2
+Initial learning rate set to 0.1, annealing set to 6
+
+calculating initial mean loss on dev set: 8.126832411068598
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.1000	instance 1000	epoch done in 13.03 seconds	new loss: 1.9023936563485626	new acc: 0.659
+epoch 2, learning rate 0.0857	instance 1000	epoch done in 12.94 seconds	new loss: 0.796745500257656	new acc: 0.659
+epoch 3, learning rate 0.0750	instance 1000	epoch done in 12.93 seconds	new loss: 0.7056095745586186	new acc: 0.659
+epoch 4, learning rate 0.0667	instance 1000	epoch done in 12.86 seconds	new loss: 0.6832727919426917	new acc: 0.659
+epoch 5, learning rate 0.0600	instance 1000	epoch done in 12.74 seconds	new loss: 0.6727390107868608	new acc: 0.659
+epoch 6, learning rate 0.0545	instance 1000	epoch done in 12.56 seconds	new loss: 0.6663647631786431	new acc: 0.659
+epoch 7, learning rate 0.0500	instance 1000	epoch done in 12.50 seconds	new loss: 0.6581726848130094	new acc: 0.662
+epoch 8, learning rate 0.0462	instance 1000	epoch done in 12.85 seconds	new loss: 0.660551908186307	new acc: 0.659
+epoch 9, learning rate 0.0429	instance 1000	epoch done in 12.90 seconds	new loss: 0.6549047652043318	new acc: 0.662
+epoch 10, learning rate 0.0400	instance 1000	epoch done in 12.99 seconds	new loss: 0.650846754274705	new acc: 0.662
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.650846754274705, acc 0.662, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.662
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 5
+Initial learning rate set to 0.1, annealing set to 6
+
+calculating initial mean loss on dev set: 7.556074762826846
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.1000	instance 1000	epoch done in 13.04 seconds	new loss: 1.1134922933327203	new acc: 0.659
+epoch 2, learning rate 0.0857	instance 1000	epoch done in 13.09 seconds	new loss: 0.7298474671081975	new acc: 0.659
+epoch 3, learning rate 0.0750	instance 1000	epoch done in 12.90 seconds	new loss: 0.687621171644906	new acc: 0.662
+epoch 4, learning rate 0.0667	instance 1000	epoch done in 13.04 seconds	new loss: 0.6687791178938227	new acc: 0.664
+epoch 5, learning rate 0.0600	instance 1000	epoch done in 13.05 seconds	new loss: 0.6616563731835773	new acc: 0.669
+epoch 6, learning rate 0.0545	instance 1000	epoch done in 13.03 seconds	new loss: 0.6538745718532997	new acc: 0.667
+epoch 7, learning rate 0.0500	instance 1000	epoch done in 13.15 seconds	new loss: 0.6506413945567353	new acc: 0.667
+epoch 8, learning rate 0.0462	instance 1000	epoch done in 13.26 seconds	new loss: 0.6502213243390765	new acc: 0.666
+epoch 9, learning rate 0.0429	instance 1000	epoch done in 13.09 seconds	new loss: 0.6469226239764981	new acc: 0.667
+epoch 10, learning rate 0.0400	instance 1000	epoch done in 13.19 seconds	new loss: 0.6439550679279434	new acc: 0.669
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6439550679279434, acc 0.669, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.669
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 0
+Initial learning rate set to 0.05, annealing set to 6
+
+calculating initial mean loss on dev set: 7.799123945310055
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.0500	instance 1000	epoch done in 12.49 seconds	new loss: 3.7826499081631315	new acc: 0.659
+epoch 2, learning rate 0.0429	instance 1000	epoch done in 12.62 seconds	new loss: 1.5515703151404747	new acc: 0.659
+epoch 3, learning rate 0.0375	instance 1000	epoch done in 12.64 seconds	new loss: 0.9786644747612683	new acc: 0.659
+epoch 4, learning rate 0.0333	instance 1000	epoch done in 12.62 seconds	new loss: 0.803297795946511	new acc: 0.663
+epoch 5, learning rate 0.0300	instance 1000	epoch done in 12.65 seconds	new loss: 0.749768278159604	new acc: 0.662
+epoch 6, learning rate 0.0273	instance 1000	epoch done in 12.87 seconds	new loss: 0.720349471834388	new acc: 0.667
+epoch 7, learning rate 0.0250	instance 1000	epoch done in 12.75 seconds	new loss: 0.7045421430014133	new acc: 0.667
+epoch 8, learning rate 0.0231	instance 1000	epoch done in 12.65 seconds	new loss: 0.6967566863173942	new acc: 0.667
+epoch 9, learning rate 0.0214	instance 1000	epoch done in 12.56 seconds	new loss: 0.6881773139651086	new acc: 0.667
+epoch 10, learning rate 0.0200	instance 1000	epoch done in 12.60 seconds	new loss: 0.6830796319334405	new acc: 0.667
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6830796319334405, acc 0.667, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.667
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 2
+Initial learning rate set to 0.05, annealing set to 6
+
+calculating initial mean loss on dev set: 8.073645625631178
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.0500	instance 1000	epoch done in 12.90 seconds	new loss: 3.5064810887666877	new acc: 0.659
+epoch 2, learning rate 0.0429	instance 1000	epoch done in 12.98 seconds	new loss: 1.3817572240749587	new acc: 0.659
+epoch 3, learning rate 0.0375	instance 1000	epoch done in 13.02 seconds	new loss: 0.8946701154743957	new acc: 0.661
+epoch 4, learning rate 0.0333	instance 1000	epoch done in 12.76 seconds	new loss: 0.7732373140266542	new acc: 0.663
+epoch 5, learning rate 0.0300	instance 1000	epoch done in 12.86 seconds	new loss: 0.7263180864820783	new acc: 0.669
+epoch 6, learning rate 0.0273	instance 1000	epoch done in 12.63 seconds	new loss: 0.70559602358592	new acc: 0.669
+epoch 7, learning rate 0.0250	instance 1000	epoch done in 12.93 seconds	new loss: 0.6961621943063406	new acc: 0.667
+epoch 8, learning rate 0.0231	instance 1000	epoch done in 12.97 seconds	new loss: 0.6851323007519269	new acc: 0.669
+epoch 9, learning rate 0.0214	instance 1000	epoch done in 12.78 seconds	new loss: 0.6794276644550118	new acc: 0.669
+epoch 10, learning rate 0.0200	instance 1000	epoch done in 12.80 seconds	new loss: 0.6751149760793067	new acc: 0.669
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6751149760793067, acc 0.669, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.669
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 5
+Initial learning rate set to 0.05, annealing set to 6
+
+calculating initial mean loss on dev set: 6.9899269217193005
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.0500	instance 1000	epoch done in 13.17 seconds	new loss: 2.84069473659818	new acc: 0.659
+epoch 2, learning rate 0.0429	instance 1000	epoch done in 12.95 seconds	new loss: 1.0631705291644484	new acc: 0.659
+epoch 3, learning rate 0.0375	instance 1000	epoch done in 13.08 seconds	new loss: 0.8082837082075544	new acc: 0.659
+epoch 4, learning rate 0.0333	instance 1000	epoch done in 13.15 seconds	new loss: 0.7425010689756313	new acc: 0.659
+epoch 5, learning rate 0.0300	instance 1000	epoch done in 13.08 seconds	new loss: 0.7160151881411625	new acc: 0.659
+epoch 6, learning rate 0.0273	instance 1000	epoch done in 12.55 seconds	new loss: 0.7018621683128538	new acc: 0.659
+epoch 7, learning rate 0.0250	instance 1000	epoch done in 13.13 seconds	new loss: 0.6927995411673287	new acc: 0.659
+epoch 8, learning rate 0.0231	instance 1000	epoch done in 13.12 seconds	new loss: 0.6865230817387104	new acc: 0.659
+epoch 9, learning rate 0.0214	instance 1000	epoch done in 13.02 seconds	new loss: 0.6814620176142572	new acc: 0.659
+epoch 10, learning rate 0.0200	instance 1000	epoch done in 13.02 seconds	new loss: 0.6776744002420777	new acc: 0.659
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6776744002420777, acc 0.659, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.659
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 0
+Initial learning rate set to 0.05, annealing set to 6
+
+calculating initial mean loss on dev set: 6.504306006791571
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.0500	instance 1000	epoch done in 12.85 seconds	new loss: 2.6453526099830347	new acc: 0.659
+epoch 2, learning rate 0.0429	instance 1000	epoch done in 12.82 seconds	new loss: 1.483809878012365	new acc: 0.659
+epoch 3, learning rate 0.0375	instance 1000	epoch done in 12.71 seconds	new loss: 0.9333938378539447	new acc: 0.659
+epoch 4, learning rate 0.0333	instance 1000	epoch done in 12.70 seconds	new loss: 0.7909822840261412	new acc: 0.659
+epoch 5, learning rate 0.0300	instance 1000	epoch done in 12.68 seconds	new loss: 0.7465108287245102	new acc: 0.659
+epoch 6, learning rate 0.0273	instance 1000	epoch done in 12.63 seconds	new loss: 0.7241131028876134	new acc: 0.659
+epoch 7, learning rate 0.0250	instance 1000	epoch done in 12.97 seconds	new loss: 0.711261148633946	new acc: 0.659
+epoch 8, learning rate 0.0231	instance 1000	epoch done in 13.29 seconds	new loss: 0.7031546671118782	new acc: 0.659
+epoch 9, learning rate 0.0214	instance 1000	epoch done in 12.84 seconds	new loss: 0.6950508568407471	new acc: 0.662
+epoch 10, learning rate 0.0200	instance 1000	epoch done in 12.52 seconds	new loss: 0.6898442304206126	new acc: 0.664
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6898442304206126, acc 0.664, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.664
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 2
+Initial learning rate set to 0.05, annealing set to 6
+
+calculating initial mean loss on dev set: 8.148815165928525
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.0500	instance 1000	epoch done in 12.57 seconds	new loss: 3.818255991017372	new acc: 0.659
+epoch 2, learning rate 0.0429	instance 1000	epoch done in 13.02 seconds	new loss: 1.3818417591160295	new acc: 0.659
+epoch 3, learning rate 0.0375	instance 1000	epoch done in 12.99 seconds	new loss: 0.8947261648075286	new acc: 0.659
+epoch 4, learning rate 0.0333	instance 1000	epoch done in 12.84 seconds	new loss: 0.770799371146391	new acc: 0.659
+epoch 5, learning rate 0.0300	instance 1000	epoch done in 12.79 seconds	new loss: 0.7245077354052382	new acc: 0.659
+epoch 6, learning rate 0.0273	instance 1000	epoch done in 12.88 seconds	new loss: 0.703551153314796	new acc: 0.659
+epoch 7, learning rate 0.0250	instance 1000	epoch done in 12.92 seconds	new loss: 0.6922127672723782	new acc: 0.659
+epoch 8, learning rate 0.0231	instance 1000	epoch done in 12.73 seconds	new loss: 0.6848965265517668	new acc: 0.659
+epoch 9, learning rate 0.0214	instance 1000	epoch done in 12.95 seconds	new loss: 0.6800852392935365	new acc: 0.659
+epoch 10, learning rate 0.0200	instance 1000	epoch done in 12.98 seconds	new loss: 0.6745622534809153	new acc: 0.659
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6745622534809153, acc 0.659, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.659
+
+Training model for 10 epochs
+training set: 1000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 5
+Initial learning rate set to 0.05, annealing set to 6
+
+calculating initial mean loss on dev set: 7.9332131540042505
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.0500	instance 1000	epoch done in 13.00 seconds	new loss: 2.911026235326989	new acc: 0.659
+epoch 2, learning rate 0.0429	instance 1000	epoch done in 12.95 seconds	new loss: 1.4027299741709853	new acc: 0.659
+epoch 3, learning rate 0.0375	instance 1000	epoch done in 12.95 seconds	new loss: 0.8939809875089227	new acc: 0.659
+epoch 4, learning rate 0.0333	instance 1000	epoch done in 13.10 seconds	new loss: 0.7739535673616249	new acc: 0.664
+epoch 5, learning rate 0.0300	instance 1000	epoch done in 12.93 seconds	new loss: 0.7352666511053318	new acc: 0.664
+epoch 6, learning rate 0.0273	instance 1000	epoch done in 13.11 seconds	new loss: 0.7149024412746657	new acc: 0.664
+epoch 7, learning rate 0.0250	instance 1000	epoch done in 13.12 seconds	new loss: 0.7035746726668984	new acc: 0.664
+epoch 8, learning rate 0.0231	instance 1000	epoch done in 12.96 seconds	new loss: 0.6956746118677849	new acc: 0.664
+epoch 9, learning rate 0.0214	instance 1000	epoch done in 12.92 seconds	new loss: 0.688742901615246	new acc: 0.665
+epoch 10, learning rate 0.0200	instance 1000	epoch done in 13.04 seconds	new loss: 0.6851680129525272	new acc: 0.664
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.6851680129525272, acc 0.664, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.664
+
+ start full training with the hyper-parameters found
+
+Training model for 10 epochs
+training set: 25000 sentences (batch size 50)
+Optimizing loss on 1000 sentences
+Vocab size: 2000
+Hidden units: 25
+Steps for back propagation: 5
+Initial learning rate set to 0.5, annealing set to 6
+
+calculating initial mean loss on dev set: 8.205145851822307
+calculating initial acc on dev set: 0.0
+
+epoch 1, learning rate 0.5000	instance 25000	epoch done in 129.55 seconds	new loss: 0.5224610890511923	new acc: 0.765
+epoch 2, learning rate 0.4286	instance 25000	epoch done in 130.94 seconds	new loss: 0.5001243611953616	new acc: 0.76
+epoch 3, learning rate 0.3750	instance 25000	epoch done in 129.49 seconds	new loss: 0.4316542798641641	new acc: 0.803
+epoch 4, learning rate 0.3333	instance 25000	epoch done in 128.32 seconds	new loss: 0.3973226884854802	new acc: 0.821
+epoch 5, learning rate 0.3000	instance 25000	epoch done in 129.13 seconds	new loss: 0.37460696278144434	new acc: 0.829
+epoch 6, learning rate 0.2727	instance 25000	epoch done in 128.43 seconds	new loss: 0.35659408071378573	new acc: 0.844
+epoch 7, learning rate 0.2500	instance 25000	epoch done in 129.68 seconds	new loss: 0.3864935558921606	new acc: 0.82
+epoch 8, learning rate 0.2308	instance 25000	epoch done in 133.20 seconds	new loss: 0.3426503583068096	new acc: 0.859
+epoch 9, learning rate 0.2143	instance 25000	epoch done in 130.79 seconds	new loss: 0.33353387650431776	new acc: 0.862
+epoch 10, learning rate 0.2000	instance 25000	epoch done in 132.58 seconds	new loss: 0.3161949015889195	new acc: 0.865
+
+training finished after reaching maximum of 10 epochs
+best observed loss was 0.3161949015889195, acc 0.865, at epoch 10
+setting U, V, W to matrices from best epoch
+Accuracy: 0.865
